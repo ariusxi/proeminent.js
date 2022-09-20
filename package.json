@@ -1,0 +1,27 @@
+{
+  "name": "proeminent.js",
+  "version": "1.0.0",
+  "description": "An lib to get proeminent colors of the image",
+  "main": "src/index.js",
+  "repository": {
+    "url": "https://github.com/ariusxi/proeminent.js.git"
+  },
+  "keywords": [
+    "color",
+    "proeminent",
+    "colors"
+  ],
+  "author": "Alef Felix",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "get-pixels": "^3.3.3",
+    "quantize": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
